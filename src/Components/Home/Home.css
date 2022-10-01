@@ -1,0 +1,10 @@
+.Country{
+    border: 1px solid lightgray;
+    background-color: azure;
+    margin: 20px;
+    padding: 20px;
+}
+.Countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
